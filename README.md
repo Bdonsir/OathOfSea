@@ -1,2 +1,2 @@
 ##### MyUniversity
-Hey,this is my college life.
+Hey,this is my college.
