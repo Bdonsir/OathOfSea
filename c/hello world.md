@@ -6,6 +6,7 @@
  int main() {
      //库函数, print + function
      printf("hello\n");
-     //返回-1
-     return -1;
+     //返回0
+     return 0;
+}
 ~~~
