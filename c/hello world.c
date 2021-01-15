@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 #if 0
-¥Ú”° hello world
+hello world
 #endif
 
 int main(void) {
