@@ -1,9 +1,9 @@
 /*
-#define MaxSize 10//¶¨Òå×î´ó³¤¶È
+#define MaxSize 10//å®šä¹‰æœ€å¤§é•¿åº¦
 typedef struct {
-	ElemType data[MaxSize];//ÓÃ¾²Ì¬µÄ¡°Êı×é¡±´æ·ÅÊı¾İÔªËØ
-	int length;//Ë³Ğò±íµÄµ±Ç°³¤¶È
-}SqList;//Ë³Ğò±íµÄÀàĞÍ¶¨Òå£¨¾²Ì¬·ÖÅä·½Ê½£©
+	ElemType data[MaxSize];//ç”¨é™æ€çš„â€œæ•°ç»„â€å­˜æ”¾æ•°æ®å…ƒç´ 
+	int length;//é¡ºåºè¡¨çš„å½“å‰é•¿åº¦
+}SqList;//é¡ºåºè¡¨çš„ç±»å‹å®šä¹‰ï¼ˆé™æ€åˆ†é…æ–¹å¼ï¼‰
 */
 #include<stdio.h>
 #define MaxSize 10
@@ -12,15 +12,14 @@ typedef struct {
 	int length;
 }SqList;
 
-//³õÊ¼»¯Ò»¸öË³Ğò±í
+//åˆå§‹åŒ–ä¸€ä¸ªé¡ºåºè¡¨
 void InitList(SqList* L) {
-	/**/
 	for (int i = 0; i < MaxSize; i++)
-		L->data[i] = 0;//ÎªËùÓĞµÄÊı¾İÔªËØÉèÖÃÄ¬ÈÏ³õÊ¼Öµ
-	L->length = 0;//Ë³Ğò±í³õÊ¼»¯³¤¶ÈÎª0
+		L->data[i] = 0;//ä¸ºæ‰€æœ‰çš„æ•°æ®å…ƒç´ è®¾ç½®é»˜è®¤åˆå§‹å€¼
+	L->length = 0;//é¡ºåºè¡¨åˆå§‹åŒ–é•¿åº¦ä¸º0
 }
 int main() {
-	SqList L;//ÉùÃ÷Ò»¸öË³Ğò±í
+	SqList L;//å£°æ˜ä¸€ä¸ªé¡ºåºè¡¨
 	InitList(&L);
 	return 0;
 }
